@@ -32,8 +32,6 @@ To add to this project, you can follow the steps provided below:
 7. celebrate the contribution! 
 
 
-### deployment
-
 ## built with
 
 * [p5.js](https://p5js.org/)
