@@ -1,0 +1,10 @@
+/* p5 */
+body {
+    background-color: #7f6445;
+}
+
+a:link, a:active, a:visited, a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid;
+}

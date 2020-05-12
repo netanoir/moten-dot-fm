@@ -1,0 +1,187 @@
+/* boilerplate */
+
+*, ::after, ::before{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+  }
+
+  body{
+    font-family: letter-gothic-std, monospace;
+    font-weight: 700;
+    font-style: normal;
+    height: 100%;
+    margin: 0;
+    background-color: #c1bd2f; /* was black, yellow as a hack for bottom excess */
+    cursor: url('cursor.png'), auto;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+  }
+  
+/* flexbox */
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* mobile */
+    justify-content: center;
+}
+
+.grid-item1 {
+    flex: 0 1 auto;
+    flex-basis: 50%;
+    display: inline-block;
+    background-color: #7f6445;
+    height: 30vh;
+}
+
+.grid-item2 {
+    flex: 0 1 auto;
+    flex-basis: 50%;
+    display: inline-block;
+    background-color: black;
+    height: 30vh;
+}
+
+/* general layout */
+.a-place-for-poetry-to-rest {
+  background-color: #c1bd2f;
+  height: 80vh;
+}
+
+.mix-info {
+  margin-top: 1rem;
+  padding: 5rem;
+}
+
+.poem {
+  padding: 5rem;
+}
+
+/* typography */
+h1 {
+  font-size: 3.5rem;
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav */
+a.home {
+  color: black;
+  text-decoration: none;
+  cursor: inherit;
+  z-index: 1;
+}
+
+ul.nav {
+  font-size: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: #7f6445;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+span.play {
+  color: #c1bd2f;
+}
+
+span.mix {
+  color: #4c2e93;
+  letter-spacing: 0.15rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+/* audio */
+.mix-gift-wrap {
+  background-color: #4c2e93;
+}
+
+.audio-player {
+  width: 100%;
+  padding: 1rem;
+}
+
+button {
+  -webkit-appearance: none;
+  outline: none;
+  cursor: inherit;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.svg {
+  width: 40px;
+  height: 40px;
+}
+
+.player-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svg.pause { display: none; }
+.mix-gift-wrap.is-playing .svg.pause { display: block; }
+.mix-gift-wrap.is-playing .svg.play { display: none; }
+
+#scrubber-gift-wrap {
+  position: relative;
+  width: 85%;
+  margin: 0;
+  height: 5px;
+}
+
+.scrubber {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid black;
+  padding: 3px;
+}
+
+.percentage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: black;
+
+}
+
+/* p5 */
+canvas {
+  display: block;
+  background-color: #c1bd2f;
+
+}
+
+/* canvas div */ 
+.a-place-for-poetry-to-rest {
+  position: relative;
+  overflow: hidden; /* pos and overflow hide words off canvas */
+  width: 100vw;
+  height: 100vh;
+}
+
+#poetry-container {
+  margin-top: 10em;
+}
+
+span:empty {
+  display: none;
+}

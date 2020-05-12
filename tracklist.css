@@ -1,0 +1,23 @@
+/* p5 */
+body {
+    background-color: #4c2e93;
+}
+canvas {
+    display: block;
+  
+  }
+  
+  .tracklist-header {
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  }
+
+  /* canvas div */ 
+  .tracklist {
+    position: relative;
+    top: 50px;
+    overflow: hidden; /* pos and overflow hide words off canvas */
+    width: 100vw;
+    /* height: 100vh; */
+  }

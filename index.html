@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> moten.fm </title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="poetry.css">
+   
+    <link rel="stylesheet" href="https://use.typekit.net/vcr0brc.css">
+</head>
+
+<body>
+    <script src="poetry.js"></script>
+
+    <div id="app">
+        <div class="grid">
+
+            <div class="grid-item1">
+                <h1 class="mix-info"> 
+                    <a href="index.html" class="home" alt="go to the index page"> moten.fm </a> 
+                </h1>
+            </div>
+
+            <div class="grid-item2">
+                <nav class="mix-info">
+                    <ul class="nav"> 
+                        <li> <a href="info.html" target="info" onclick="window.open('info.html','info','width=550,height=1000'); return false;" alt="learn more info about the mix"> <span class="play"> poetry </span> mix </a> </li>
+                        <li> <a href="tracklist.html" target="tracks" onclick="window.open('tracklist.html','tracks','width=850,height=300'); return false;" alt="view the tracklist"> <span class="mix"> tracklist </span> </a> </li>
+                        <!-- <li> <a href="#" alt="read names of all the tracks in the mix"> tracklist </a> </li> -->
+                    </ul>
+                    
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="mix-gift-wrap" id="moten-dot-fm">
+
+            <div class="audio-player">
+                <audio class="audio" id="the-realistic-spot" src="mix/Betty Carter - The Sun Died.mp3">
+                </audio>
+
+                <span id="load-the-realistic-spot"> </span>
+
+                <div class="player-controls">
+                    <button class="button" id="play-the-realistic-spot" onclick="togglePlay()">
+                        <img src="mix/play.svg" class="svg play"/>
+                        <img src="mix/pause.svg" class="svg pause"/>
+                    </button>
+
+                    <div id="scrubber-gift-wrap">
+                        <div class="scrubber" id="scrub-the-realistic-spot">
+                            <div class="percentage" id="measure-the-realistic-spot"> </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <small class="current-time" id="time-the-realistic-spot"> 00:00 </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="a-place-for-poetry-to-rest" id="sketch">
+
+        </div>
+
+    </div>
+    
+    <script src="audio.js"></script>
+    <script>
+        motenDotFM('moten-dot-fm', 'the-realistic-spot', 'play-the-realistic-spot', 'measure-the-realistic-spot', 'scrub-the-realistic-spot', 'time-the-realistic-spot', 'load-the-realistic-spot')
+    </script>
+</body>
+
+</html>
