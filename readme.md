@@ -1,5 +1,5 @@
 # moten.fm
-moten.fm is a concrete poetry mix comprised of tracks played in "free jazz: the realistic spot" a class taught by [fred moten](https://tisch.nyu.edu/about/directory/performance-studies/fred-moten)  at new york university. both the mix and website were created by [neta bomani](https://netabomani.com) for "material of language" a class taught by [allison parrish](https://tisch.nyu.edu/about/directory/itp/853082171) at the same university.
+moten.fm is a concrete poetry mix comprised of tracks played in "free jazz: the realistic spot" a class taught by [fred moten](https://tisch.nyu.edu/about/directory/performance-studies/fred-moten) at new york university. both the mix and website were created by [neta bomani](https://netabomani.com) for "material of language" a class taught by [allison parrish](https://tisch.nyu.edu/about/directory/itp/853082171) at the same university. view the project online [here](https://moten-dot-fm.glitch.me/).
 
 ![a screenshot of the webpage, which is stylized in minimal swiss design](/doc/moten-dot-fm-screenshot.png)
 
@@ -31,7 +31,7 @@ To add to this project, you can follow the steps provided below:
 6. have a nice chat and communication with me about those changes. 
 7. celebrate the contribution! 
 
-<!-- Notes about the deployment -->
+
 ### deployment
 
 ## built with
@@ -59,9 +59,9 @@ please read the [code of conduct](https://www.mozilla.org/en-US/about/governance
 
 this readme template is licensed according to [attribution 4.0 international (cc by 4.0) ](https://creativecommons.org/licenses/by/4.0/)
 
-<!-- thank and reference all the things that made your project happen -->
+
 ## acknowledgements
 
-* fred moten, for an indescrible classroom experience and the words for understanding free jazz.
-* allison parrish, for a rigourous study of language and the tools for understanding words as they surface digital substrate.
-* [char stiles](http://charstiles.com/) and [patrick steppan](https://patrick.care/), for your friendship and help debugging code. 
+* fred moten, for an indescrible classroom experience and the words for understanding free jazz
+* allison parrish, for a rigourous study of language and the tools for understanding words as they surface digital substrate
+* [char stiles](http://charstiles.com/) and [patrick steppan](https://patrick.care/), for your friendship and help debugging code
