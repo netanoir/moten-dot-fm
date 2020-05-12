@@ -55,7 +55,7 @@ please read the [code of conduct](https://www.mozilla.org/en-US/about/governance
 
 ## license
 
-this readme template is licensed according to [attribution 4.0 international (cc by 4.0) ](https://creativecommons.org/licenses/by/4.0/)
+licensed according to [attribution 4.0 international (cc by 4.0) ](https://creativecommons.org/licenses/by/4.0/)
 
 
 ## acknowledgements
